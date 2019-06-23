@@ -1,6 +1,6 @@
 // Discord.js bot
 const Discord = require('discord.js');
-var prefix = "$"
+var prefix = "#"
 const client = new Discord.Client();
 
 client.on('ready', () => {
