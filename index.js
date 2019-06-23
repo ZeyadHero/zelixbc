@@ -4,7 +4,7 @@ var prefix = "$"
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setActivity('Zelix Host | broadcast', {type: 'WATCHING'});
+    client.user.setActivity('Nevira Server', {type: 'WATCHING'});
 });
 
 client.on('message', async message => {
